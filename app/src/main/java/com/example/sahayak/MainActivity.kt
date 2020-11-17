@@ -17,8 +17,8 @@ class MainActivity : AppCompatActivity() {
         //Button presses on main activity open the respective activities
         Diet_Button.setOnClickListener()
         {
-            val intent = Intent(this,UnderDevelopment :: class.java)
-            startActivity(intent)
+            val DietMainIntent = Intent(this,DietMainPage :: class.java)
+            startActivity(DietMainIntent)
         }
 
         Exercise_Button.setOnClickListener()

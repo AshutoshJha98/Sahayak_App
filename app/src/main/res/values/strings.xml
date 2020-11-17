@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Sahayak</string>
+    <string name="DietMainFruitsButton">Fruits</string>
+    <string name="DietMainVegetablesButton">Vegetables</string>
+    <string name="DietMainDairyButton">Dairy</string>
+    <string name="DietMainNutsButton">Nuts &amp; Legumes</string>
+    <string name="DietMainMeatsButton">Poultry &amp; Meats</string>
 </resources>

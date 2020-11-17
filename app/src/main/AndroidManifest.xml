@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sahayak">
-        <activity android:name=".UnderDevelopment"></activity>
+        <activity android:name=".DietMainPage"></activity>
+        <activity android:name=".UnderDevelopment" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
