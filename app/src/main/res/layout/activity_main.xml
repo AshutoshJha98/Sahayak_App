@@ -8,22 +8,24 @@
 
     <Button
         android:id="@+id/Analysis_Button"
-        android:layout_width="200dp"
+        android:layout_width="300dp"
         android:layout_height="70dp"
         android:layout_marginTop="10dp"
         android:text="Analysis"
         android:textSize="30sp"
+        android:backgroundTint="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Finance_Button" />
 
     <Button
         android:id="@+id/Finance_Button"
-        android:layout_width="200dp"
+        android:layout_width="300dp"
         android:layout_height="70dp"
         android:layout_marginTop="10dp"
         android:text="Finance"
         android:textSize="30sp"
+        android:backgroundTint="#005e2d"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,31 +33,35 @@
 
     <Button
         android:id="@+id/Exercixe_Button"
-        android:layout_width="200dp"
+        android:layout_width="300dp"
         android:layout_height="70dp"
         android:layout_marginTop="10dp"
         android:text="Exercise"
         android:textSize="30sp"
+        android:backgroundTint="#c90000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Diet_Button" />
 
     <Button
         android:id="@+id/Diet_Button"
-        android:layout_width="200dp"
+        android:layout_width="300dp"
         android:layout_height="70dp"
         android:layout_marginTop="10dp"
         android:text="Diet"
         android:textSize="30sp"
+        android:backgroundTint="#0a007d"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/TextConsole"
-        android:layout_width="387dp"
-        android:layout_height="174dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
+        android:background="@drawable/console_rectangle"
         android:fontFamily="sans-serif-condensed"
         android:text="Console"
         android:textAlignment="center"
