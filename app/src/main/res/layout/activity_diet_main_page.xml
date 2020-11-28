@@ -4,13 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/ubuntusplash_bg1"
     tools:context=".DietMainPage">
 
     <Button
-        android:id="@+id/DietMain_Fruits"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/DietMain_FruitsButton"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
         android:layout_marginTop="20dp"
+        android:backgroundTint="#00000000"
+        android:fontFamily="sans-serif-light"
+        android:textSize="35sp"
+        android:textColor="@color/white"
         android:text="@string/DietMainFruitsButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -18,43 +23,60 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/DietMainVegetables"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/DietMain_VegetablesButton"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
         android:layout_marginTop="10dp"
+        android:backgroundTint="#00000000"
+        android:fontFamily="sans-serif-light"
+        android:textSize="35sp"
+        android:textColor="@color/white"
         android:text="@string/DietMainVegetablesButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/DietMain_Fruits" />
+        app:layout_constraintTop_toBottomOf="@+id/DietMain_FruitsButton" />
 
     <Button
-        android:id="@+id/DietMainDairy"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/DietMain_DairyButton"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
         android:layout_marginTop="10dp"
+        android:backgroundTint="#00000000"
+        android:fontFamily="sans-serif-light"
+        android:textSize="35sp"
+        android:textColor="@color/white"
         android:text="@string/DietMainDairyButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/DietMainVegetables" />
+        app:layout_constraintTop_toBottomOf="@+id/DietMain_VegetablesButton" />
 
     <Button
-        android:id="@+id/DietMainMeats"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/DietMain_MeatsButton"
+        android:layout_width="300dp"
+        android:layout_height="110dp"
         android:layout_marginTop="10dp"
+        android:backgroundTint="#00000000"
+        android:fontFamily="sans-serif-light"
+        android:textSize="35sp"
+        android:textColor="@color/white"
         android:text="@string/DietMainMeatsButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/DietMainDairy" />
+        app:layout_constraintTop_toBottomOf="@+id/DietMain_DairyButton" />
 
     <Button
-        android:id="@+id/DietMainNuts"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/DietMain_NutsButton"
+        android:layout_width="300dp"
+        android:layout_height="110dp"
         android:layout_marginTop="10dp"
+        android:backgroundTint="#00000000"
+        android:fontFamily="sans-serif-light"
+        android:textSize="35sp"
+        android:textColor="@color/white"
         android:text="@string/DietMainNutsButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/DietMainMeats" />
+        app:layout_constraintTop_toBottomOf="@+id/DietMain_MeatsButton" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

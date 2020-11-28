@@ -21,11 +21,16 @@ class MainActivity : AppCompatActivity() {
         val Analysis_Button = findViewById<Button>(R.id.Analysis_Button)
         val console = findViewById<TextView>(R.id.TextConsole)
 
-        /*val fileContent:String = "Test123 \n"
+        /* For writing to external File (in Android>data Folder)
+        val fileContent:String = "Test123 \n"
         var myExternalFile:File = File(getExternalFilesDir(""),"test.txt")
         val fileOutPutStream = FileOutputStream(myExternalFile,true)
         fileOutPutStream.write(fileContent.toByteArray())
-        fileOutPutStream.close()*/
+        fileOutPutStream.close()
+
+        //For reading from external File (in Android>data Folder)
+        val inputAsString = FileInputStream(myExternalFile).bufferedReader().use { it.readText()}
+        console.text = inputAsString*/
 
 
         //Button presses on main activity open the respective activities
@@ -37,20 +42,20 @@ class MainActivity : AppCompatActivity() {
 
         Exercise_Button.setOnClickListener()
         {
-            val intent = Intent(this,UnderDevelopment :: class.java)
-            startActivity(intent)
+            val UnderDevIntent = Intent(this,UnderDevelopment :: class.java)
+            startActivity(UnderDevIntent)
         }
 
         Finance_Button.setOnClickListener()
         {
-            val intent = Intent(this,UnderDevelopment :: class.java)
-            startActivity(intent)
+            val UnderDevIntent = Intent(this,UnderDevelopment :: class.java)
+            startActivity(UnderDevIntent)
         }
 
         Analysis_Button.setOnClickListener()
         {
-            val intent = Intent(this,UnderDevelopment :: class.java)
-            startActivity(intent)
+            val UnderDevIntent = Intent(this,UnderDevelopment :: class.java)
+            startActivity(UnderDevIntent)
         }
 
 
