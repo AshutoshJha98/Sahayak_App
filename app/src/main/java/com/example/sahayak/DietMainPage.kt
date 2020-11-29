@@ -18,8 +18,8 @@ class DietMainPage : AppCompatActivity() {
 
         DietMain_FruitsButton.setOnClickListener()
         {
-            val UnderDevIntent = Intent(this, UnderDevelopment :: class.java)
-            startActivity(UnderDevIntent)
+            val FruinMainScrollIntent = Intent(this, FruitMainScroll :: class.java)
+            startActivity(FruinMainScrollIntent)
         }
 
         DietMain_VegetablesButton.setOnClickListener()
