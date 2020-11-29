@@ -8,4 +8,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="ubuntu_mid">#5E2750</color>
+    <color name="ubuntu_dark">#2C001E</color>
 </resources>

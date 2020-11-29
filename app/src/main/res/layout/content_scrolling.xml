@@ -9,98 +9,137 @@
     tools:showIn="@layout/activity_fruit_main_scroll">
 
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="70000dp">
+
+        <ImageView
+            android:id="@+id/AppleLayout"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:alpha="1"
+            app:srcCompat="@drawable/fruit_data_entry_layout" />
 
         <TextView
-            android:id="@+id/TextConsole1"
-            android:layout_width="300dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:textSize="35sp"
-            android:text="Text1" />
+            android:id="@+id/AppleTitle"
+            android:layout_width="218dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Apple"
+            android:textColor="@color/ubuntu_dark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/AppleLayout"
+            app:layout_constraintHorizontal_bias="0.043"
+            app:layout_constraintStart_toStartOf="@+id/AppleLayout"
+            app:layout_constraintTop_toTopOf="@+id/AppleLayout" />
 
         <TextView
-            android:id="@+id/TextConsole2"
-            android:layout_width="300dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:textSize="35sp"
-            android:text="Text2" />
+            android:id="@+id/AppleFreqLabel"
+            android:layout_width="116dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="48dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Frequency"
+            android:textColor="@color/ubuntu_dark"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="@+id/AppleLayout"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/AppleLayout"
+            app:layout_constraintTop_toTopOf="@+id/AppleLayout" />
 
         <TextView
-            android:id="@+id/TextConsole3"
-            android:layout_width="300dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:textSize="35sp"
-            android:text="Text3" />
+            android:id="@+id/AppleFreqeText"
+            android:layout_width="78dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="48dp"
+            android:fontFamily="sans-serif-light"
+            android:text="1/5 D"
+            android:textAlignment="textEnd"
+            android:textColor="@color/ubuntu_dark"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="@+id/AppleLayout"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="@+id/AppleLayout"
+            app:layout_constraintTop_toTopOf="@+id/AppleLayout" />
 
         <TextView
-            android:id="@+id/TextConsole4"
-            android:layout_width="300dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:textSize="35sp"
-            android:text="Text4" />
+            android:id="@+id/AppleLastEateneText"
+            android:layout_width="78dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="87dp"
+            android:fontFamily="sans-serif-light"
+            android:text="3 D"
+            android:textAlignment="textEnd"
+            android:textColor="@color/ubuntu_dark"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="@+id/AppleLayout"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="@+id/AppleLayout"
+            app:layout_constraintTop_toTopOf="@+id/AppleLayout" />
 
         <TextView
-            android:id="@+id/TextConsole5"
-            android:layout_width="300dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:textSize="35sp"
-            android:text="Text5" />
+            android:id="@+id/AppleLastEatenLabel"
+            android:layout_width="116dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="88dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Last eaten"
+            android:textColor="@color/ubuntu_dark"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="@+id/AppleLayout"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/AppleLayout"
+            app:layout_constraintTop_toTopOf="@+id/AppleLayout" />
 
         <TextView
-            android:id="@+id/TextConsole6"
-            android:layout_width="300dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:textSize="35sp"
-            android:text="Text6" />
+            android:id="@+id/ApplePortionLabel"
+            android:layout_width="116dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="161dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Portion Size"
+            android:textColor="@color/ubuntu_dark"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="@+id/AppleLayout"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/AppleLayout"
+            app:layout_constraintTop_toTopOf="@+id/AppleLayout" />
 
         <TextView
-            android:id="@+id/TextConsole7"
-            android:layout_width="300dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:textSize="35sp"
-            android:text="Text7" />
+            android:id="@+id/AppleImpLabel"
+            android:layout_width="116dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="125dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Important"
+            android:textColor="#e60000"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="@+id/AppleLayout"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/AppleLayout"
+            app:layout_constraintTop_toTopOf="@+id/AppleLayout" />
 
-        <TextView
-            android:id="@+id/TextConsole8"
-            android:layout_width="300dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:textSize="35sp"
-            android:text="Text8" />
 
-    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
